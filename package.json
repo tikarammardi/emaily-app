@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Mern",
+  "main": "index.js",
+  "engines": {
+    "node": " 10.16.3",
+    "npm": "6.11.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tikaram Mardi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
