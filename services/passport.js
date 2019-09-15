@@ -25,7 +25,7 @@ passport.use(
     (accessToken, refreshToken, profile, done) => {
       User.findOne({ googleId: profile.id }).then(existingUser => {
         if (existingUser) {
-          //we already have a record with the given profile Id
+          //we already have a record with the given profile Id no need to do anything
           done(null, existingUser);
         } else {
           //we dont have any record
