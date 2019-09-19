@@ -3,9 +3,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 import Header from './Header';
+import Landing from './Landing';
 const DashBoard = () => <h1>DashBoard</h1>;
 const SurveyNew = () => <h1>SurveyNew</h1>;
-const Landing = () => <h1>Landing</h1>;
 
 class App extends Component {
   componentDidMount() {
