@@ -15,3 +15,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+console.log('PK:', process.env.REACT_APP_STRIPE_PK);
+console.log('Env:', process.env.NODE_ENV);
